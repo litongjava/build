@@ -4,7 +4,22 @@
 `go-build` is an engineering build tool designed to handle complex engineering build and packaging tasks. It supports Windows, Linux, and macOS operating systems. The tool aims to simplify the build process across multiple platforms, making engineering builds more consistent and efficient.
 
 ## Install
+```
+# 1. 克隆仓库
+git clone https://github.com/litongjava/go-build.git
+cd go-build
+# 2. 安装（使用当前目录）
+go install .
+```
 
+run
+```
+~/go/bin/build
+```
+
+```
+export PATH=$PATH:~/go/bin
+```
 
 ## Configuration File Example
 Below is an example of a configuration file `.build.txt`, which includes environment variables and build commands for different operating systems:
