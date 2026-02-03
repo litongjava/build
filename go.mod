@@ -1,3 +1,3 @@
-module github.com/litongjava/go-build
+module build
 
 go 1.21.1
