@@ -5,11 +5,11 @@
 
 ## Install
 ```
-# 1. 克隆仓库
-git clone https://github.com/litongjava/go-build.git
-cd go-build
-# 2. 安装（使用当前目录）
-go install .
+go install github.com/litongjava/build@latest
+```
+
+```
+go install gitee.com/ppnt/build@latest
 ```
 
 run
